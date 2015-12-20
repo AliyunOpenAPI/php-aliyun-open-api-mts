@@ -26,12 +26,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Aliyun\\MTS\\": "src",
-      "Aliyun\\MTS\\Tests\\": "tests"
+      "Aliyun\\MTS\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
+      "Aliyun\\MTS\\Tests\\": "tests"
     }
   },
   "scripts": {
