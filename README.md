@@ -31,6 +31,12 @@ $config = [
 ];
 
 /**
+ * 配置网关
+ */
+$endpoint = new Endpoint('cn-hangzhou', EndpointConfig::getRegionIds(), EndpointConfig::getProductDomains());
+EndpointProvider::setEndpoints([ $endpoint ]);
+
+/**
  * 授权资料
  */
 $profile = DefaultProfile::getProfile('cn-hangzhou', $config['AccessKeyId'], $config['AccessKeySecret']);
